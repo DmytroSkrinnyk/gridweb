@@ -1,0 +1,18 @@
+.about__me{
+    padding: 119px 0 100px;
+}
+.about__me-item{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items:center;
+    align-items: center;
+    .about__me-title{
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .about__me-description{
+        max-width: 540px;
+        width: 100%;
+        text-align: center;
+    }
+}

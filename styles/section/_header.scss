@@ -1,0 +1,28 @@
+.header{
+    background: #EEEFF1;
+}
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 57px;
+    justify-content: space-between;
+
+
+    a{
+        display: grid;
+        .header__img{
+            align-self: center;
+        }
+    }
+    .header__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 42px;
+    }
+    .header__list-link:hover{
+        background: #34547A;
+        color: #ffffff;
+        transition: .5s;
+        
+    }
+}

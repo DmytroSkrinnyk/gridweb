@@ -1,0 +1,38 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 101px 0 100px;
+}
+.accent__b{
+    max-width: 445px;
+    width: 100%;
+    height: 4px;
+    background: #C4C4C4;
+}
+.accent{
+    width: 445px;
+}
+.accent__description{
+    margin-bottom: 10px;
+    text-align: start;
+    color: #727272;
+}
+.accent__sm{
+    max-width: 350px;
+    width: 75%;
+    height: 4px;
+    background: #34547A;
+}
+// .accent__face{
+//     max-width: 555px;
+//     width: 100%;
+// }
+.accent__face-foto{
+    max-width: 555px;
+    width: 100%;
+}
+.skills__item{
+    display: grid;
+    row-gap: 60px;
+    justify-content: center;
+}
