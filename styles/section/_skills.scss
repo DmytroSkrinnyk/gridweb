@@ -1,6 +1,6 @@
 .skills{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     padding: 101px 0 100px;
 }
 .accent__b{
@@ -23,10 +23,6 @@
     height: 4px;
     background: #34547A;
 }
-// .accent__face{
-//     max-width: 555px;
-//     width: 100%;
-// }
 .accent__face-foto{
     max-width: 555px;
     width: 100%;

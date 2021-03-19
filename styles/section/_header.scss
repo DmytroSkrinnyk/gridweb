@@ -16,13 +16,13 @@
     }
     .header__list{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
         column-gap: 42px;
     }
     .header__list-link:hover{
         background: #34547A;
         color: #ffffff;
         transition: .5s;
-        
+    
     }
 }

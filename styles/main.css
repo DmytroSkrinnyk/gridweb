@@ -82,8 +82,8 @@ button {
 .header__container .header__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: (minmax(86px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
   -webkit-column-gap: 42px;
           column-gap: 42px;
 }
@@ -104,8 +104,8 @@ button {
 .hero .hero_item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: (minmax(540px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
   justify-items: center;
 }
 
@@ -166,8 +166,8 @@ button {
 .project__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: (minmax(140px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -195,8 +195,8 @@ button {
 .skills {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: (minmax(550px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   padding: 101px 0 100px;
 }
 
